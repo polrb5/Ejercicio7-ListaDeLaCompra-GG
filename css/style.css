@@ -1,3 +1,10 @@
+html,body{
+  font-family: Palatino, “Palatino Linotype”, “Urw Palladio L”, Serif;
+  font-family: Georgia, “Dejavu Serif”, Serif;
+  font-family: “Courier New”, Courier, “Nimbus Mono L”, Monospace;
+  font-family: “Helvetica Neue”, Helvetica, “Nimbus Sans L”, San-Serif;
+  font-family: Verdana, “Dejavu Sans”, San-Serif;
+}
 :root {
   --color-cabecera: #5e81d1;
   --color-barra-info: #f87500;
