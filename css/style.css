@@ -2,6 +2,8 @@
   --color-cabecera: #5e81d1;
   --color-barra-info: #f87500;
   --color-contenido-principal: #ff8d27;
+  --altura-cabecera: 100px;
+  --altura-barra-info: 55px;
 }
 * {
   box-sizing: border-box;
@@ -16,22 +18,24 @@ h2 {
 }
 .cabecera {
   background-color: var(--color-cabecera);
+  height: var(--altura-cabecera);
 }
 .barra-informativa {
   background-color: var(--color-barra-info);
-}
-.contenido-principal {
-  background-color: var(--color-contenido-principal);
-}
-.list-links li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.barra-informativa {
+  height: var(--altura-barra-info);
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.contenido-principal {
+  background-color: var(--color-contenido-principal);
+  min-height: calc(100vh - var(--altura-cabecera) - var(--altura-barra-info));
+}
+.nav-links {
+  margin: 0;
+}
+.list-links {
+  margin: 0;
 }
 .barra-info-text p {
   font-size: 25px;
