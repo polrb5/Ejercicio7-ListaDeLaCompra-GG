@@ -14,7 +14,7 @@
         <ul class="nav-links">
           <li><a href="">Principal</a></li>
           <li>
-            <span><a href="">Lista</a></span>
+            <a href="">Lista</a>
           </li>
           <li><a href="">Acerca de</a></li>
         </ul>
@@ -23,7 +23,23 @@
     <main>
       <section></section>
       <section>
-        <form action=""></form>
+        <h2>Editar articulo</h2>
+        <form>
+          <div class="form-name">
+            <label class="col-1" for="name">Nombre:</label>
+            <input type="text" id="name" name="nombre" required />
+          </div>
+          <div class="form-price">
+            <label class="col-1" for="precio">Precio:</label>
+            <input type="text" name="precio" id="precio" required /><span
+              class="euro"
+              >€</span
+            >
+          </div>
+          <div class="form-submit">
+            <input type="submit" value="Modificar" />
+          </div>
+        </form>
       </section>
     </main>
     <footer></footer>
