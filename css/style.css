@@ -54,6 +54,13 @@ nav.ul.li:hover{
   background-color: var(--color-contenido-principal);
   min-height: calc(100vh - var(--altura-cabecera) - var(--altura-barra-info));
 }
+.contenido-formulario {
+  background-color: var(--color-contenido-principal);
+  min-height: calc(100vh - var(--altura-cabecera) - var(--altura-barra-info));
+  display: flex;
+  justify-content: column;
+  align-items: flex-start;
+}
 .nav-links {
   margin: 0;
 }
