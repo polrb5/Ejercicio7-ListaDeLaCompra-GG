@@ -1,9 +1,8 @@
 :root {
   --color-cabecera: #5e81d1;
-  --color-barra-info: f87500;
+  --color-barra-info: #f87500;
   --color-contenido-principal: #ff8d27;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -28,4 +27,12 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.barra-informativa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.barra-info-text p {
+  font-size: 25px;
 }
