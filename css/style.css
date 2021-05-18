@@ -1,0 +1,21 @@
+:root {
+  --color-cabecera: #5e81d1;
+  --color-barra-info: f87500;
+  --color-contenido-principal: #ff8d27;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.cabecera {
+  background-color: var(--color-cabecera);
+}
+.barra-informativa {
+  background-color: var(--color-barra-info);
+}
+.contenido-principal {
+  background-color: var(--color-contenido-principal);
+}
