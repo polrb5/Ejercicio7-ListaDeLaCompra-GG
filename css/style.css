@@ -9,6 +9,7 @@ html,body{
   --color-cabecera: #5e81d1;
   --color-barra-info: #f87500;
   --color-contenido-principal: #ff8d27;
+  --color-contenido-principal-hover: #c16b1e;
   --altura-cabecera: 100px;
   --altura-barra-info: 55px;
 }
@@ -47,7 +48,12 @@ h2 {
   display: flex;
   justify-content: column;
   align-items: space-between;
+  background-color: var(--color-contenido-principal);
 }
+.list-links:hover{
+  background-color: var(--color-contenido-principal-hover);
+}
+
 .listlinks>li{
   display: flex;
   justify-content: row;
