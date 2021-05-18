@@ -36,7 +36,21 @@ h2 {
 }
 .list-links {
   margin: 0;
+  display: flex;
+  justify-content: column;
+  align-items: space-between;
 }
+.listlinks>li{
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precio-icono{
+  justify-content: flex-end;
+}
+
 .barra-info-text p {
   font-size: 25px;
 }
