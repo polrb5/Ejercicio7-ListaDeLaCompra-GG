@@ -10,6 +10,11 @@
 body {
   margin: 0;
 }
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .cabecera {
   background-color: var(--color-cabecera);
 }
@@ -18,4 +23,9 @@ body {
 }
 .contenido-principal {
   background-color: var(--color-contenido-principal);
+}
+.list-links li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
